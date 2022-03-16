@@ -3,4 +3,5 @@ backend:
   branch: main
 
 publish_mode: editorial_workflow
-media_folder: "images"
+media_folder: "src/images"
+local_backend: true
