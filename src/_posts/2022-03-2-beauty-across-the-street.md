@@ -4,7 +4,7 @@ title:  "היפיפייה ממול"
 date:   2022-03-2 09:28:44 +0200
 categories: סדנת-כתיבה
 description: סיפור שנכתב כתרגיל בסדנת כתיבה
-pic: "woman.jpg"
+pic: "/images/woman.jpg"
 ---
 
 "די! לא להציק לאבא עכשיו" לחשתי להם.
