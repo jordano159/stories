@@ -4,9 +4,11 @@
     <%= render "head", metadata: site.metadata, title: resource.data.title %>
   </head>
   <body class="<%= resource.data.layout %> <%= resource.data.page_class %>">
-    <%= render Shared::Navbar.new(metadata: site.metadata, resource: resource) %>
-
-    <main>
+    <%# render Shared::Navbar.new(metadata: site.metadata, resource: resource) %>
+      <img src="<%= relative_url '/images/logo.svg' %>" alt="Logo" />
+    <a href="<%= relative_url '/' %>"
+    </a>
+    <main class="flex">
       <%= yield %>
     </main>
 
