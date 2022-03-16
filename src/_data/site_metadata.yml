@@ -1,0 +1,11 @@
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.metadata.title }}, {{ site.metadata.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.metadata.myvariable }}.
+
+title: הסיפורים של ירדן
+tagline: סיפורים קצרים מאת ירדן שפנר
+email: yarden11111@gmail.com
+description: >-
+  סיפורים שנולדו בסערות נפש ולילות לבנים, סיפורים קצרים שנכתבו לאורך שנים על ידי ירדן שפנר
