@@ -27,7 +27,6 @@ collections:
       - { label: Title, name: title, widget: string }
       - { label: Publish Date, name: date, widget: datetime }
       - { label: Category, name: categories, widget: string}
-      - { label: Description, name: description, widget: string}
       - { label: Image, name: pic, widget: "image" }
       - { label: Image Alt, name: alt, widget: string}
       - { label: Body, name: body, widget: markdown }
