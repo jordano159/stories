@@ -5,9 +5,7 @@
   </head>
   <body class="<%= resource.data.layout %> <%= resource.data.page_class %>">
     <%# render Shared::Navbar.new(metadata: site.metadata, resource: resource) %>
-    <a href="<%= relative_url '/' %>">
-      <img src="<%= relative_url '/images/logo.svg' %>" alt="Logo" />
-    </a>
+    <a href="<%= relative_url '/' %>" class="flex justify-center mt-8"><img src="<%= relative_url '/images/story-logo.png' %>" alt="Logo" /></a>
     <main>
       <%= yield %>
       <script>
